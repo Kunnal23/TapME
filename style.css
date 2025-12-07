@@ -1,0 +1,65 @@
+body{
+    background: #52357B;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 16px;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+	font-weight: 700;
+    color: white;
+    text-align: center;
+}
+
+.container {
+	height: 70vh;
+	display: flex;
+
+	justify-content: center;
+	align-items: center;
+}
+.content {
+	height: 70vmin;
+	display: flex;
+	flex-direction: column;
+	gap: 3vmin;
+	justify-content: center;
+	align-items: center;
+}
+
+.box {
+	border-radius: 5px;
+	border: none;
+	box-shadow: 5px 3px 12px 0px rgba(0, 0, 0, 0.69);
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+	font-weight: 700;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.1s;
+}
+
+#tap-btn {
+	height: 200px;
+	width: 200px;
+    background: #4477CE;
+    font-size: 20px;
+}
+
+#decr-btn {
+	height: 40px;
+	width: 200px;
+    background: #FF6D1F;
+    font-size: 15px;
+}
+
+#reset-btn {
+	height: 30px;
+	width: 200px;
+    background: #DC0000;
+    font-size: 15px;
+}
+
+button:active {
+    transform: translateY(6px);
+    box-shadow: 5px 3px 12px 0px rgba(103, 25, 126, 0.979);
+}
