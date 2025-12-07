@@ -36,25 +36,26 @@ body{
     color: white;
     cursor: pointer;
     transition: transform 0.1s;
+    
 }
 
 #tap-btn {
-	height: 200px;
-	width: 200px;
+	height: 25vh;
+	width: 70vw;
     background: #4477CE;
-    font-size: 20px;
+    font-size: 40px;
 }
 
 #decr-btn {
-	height: 40px;
-	width: 200px;
+	height: 7vh;
+	width: 70vw;
     background: #FF6D1F;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 #reset-btn {
-	height: 30px;
-	width: 200px;
+	height: 5vh;
+	width: 70vw;
     background: #DC0000;
     font-size: 15px;
 }
